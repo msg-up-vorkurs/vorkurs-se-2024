@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>01_introduction</module>
+        <module>02_variables-operators</module>
     </modules>
 
     <properties>
