@@ -12,6 +12,7 @@
         <module>01_introduction</module>
         <module>02_variables-operators</module>
         <module>03_classes-objects-constructors</module>
+      <module>04_methods</module>
     </modules>
 
     <properties>
