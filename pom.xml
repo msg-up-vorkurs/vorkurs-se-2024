@@ -15,7 +15,7 @@
         <module>04_methods</module>
         <module>05_conditionals</module>
         <module>06_references-equality</module>
-        <module>07_arrays</module>
+        <module>08_arrays</module>
     </modules>
 
     <properties>
