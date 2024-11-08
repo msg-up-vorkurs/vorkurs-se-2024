@@ -12,14 +12,14 @@ public class ScopeErrors {
      * b) Gib mithilfe von Aufgabe 1a 'Die Zahl ist kleiner als 100' aus! --> main
      **/
     void task1(int zahl) {
-        String message;
+
         if (zahl < 100) {
-            message = "Die Zahl ist kleiner als 100!";
+            String message = "Die Zahl ist kleiner als 100!";
         } else {
-            message = "Die Zahl ist größer gleich 100!";
+            String message = "Die Zahl ist größer gleich 100!";
         }
 
-        System.out.println(message);
+        //System.out.println(message);
     }
 
     /**
@@ -28,7 +28,7 @@ public class ScopeErrors {
      **/
     void task2() {
         String variable = "Das hier soll nicht ausgegeben werden!";
-        System.out.println(this.variable);
+        System.out.println(variable);
     }
 
     /**
@@ -45,13 +45,10 @@ public class ScopeErrors {
 
         int ergebnis = b + zahl;
 
-        System.out.println(ergebnis); // Ausgabe: 120
+        System.out.println(ergebnis);
     }
 
     public static void main(String[] args) {
         ScopeErrors serr = new ScopeErrors();
-        serr.task1(50);
-        serr.task2();
-        serr.task3();
     }
 }
