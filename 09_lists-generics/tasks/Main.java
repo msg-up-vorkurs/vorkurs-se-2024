@@ -26,7 +26,7 @@ public class Main {
     }
 
     static void printList() {
-        // TODO 2: Gib den Inhalt der Liste "products" aus. Verwende dazu eine Schleife
+        // TODO 2: Gib den Inhalt der Liste "products" aus. Verwende dazu eine for-each Schleife
     }
 
     static void removePants() {
