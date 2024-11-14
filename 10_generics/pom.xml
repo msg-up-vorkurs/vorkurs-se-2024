@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>09_lists-generics</artifactId>
+    <artifactId>10_generics</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

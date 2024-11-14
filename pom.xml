@@ -17,7 +17,8 @@
         <module>06_references-equality</module>
         <module>07_scope</module>
         <module>08_arrays</module>
-        <module>09_lists-generics</module>
+        <module>09_lists</module>
+        <module>10_generics</module>
     </modules>
 
     <properties>
