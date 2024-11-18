@@ -6,8 +6,17 @@ public class GenericMain1Demo {
         String[] inputStringArray = {"Hallo!", "Hello!", "¡Hola!", "Salut!"};
 
         GenericMethodDemo demo = new GenericMethodDemo();
-        int firstInteger;
-        String firstString;
+        int firstInteger = demo.getFirstElementFromIntegerArray(inputIntegerArray);
+        System.out.println(firstInteger);
+        // Neue Methode in GenericMethodDemo für String implementieren
+        String firstString = demo.getFirstElementFromStringArray(inputStringArray);
+        System.out.println(firstString);
 
+        // Eine Methode für beide Datentypen
+        firstInteger = demo.getFirstElementFromArray(inputIntegerArray);
+        firstString = demo.getFirstElementFromArray(inputStringArray);
+
+        System.out.println(firstInteger);
+        System.out.println(firstString);
     }
 }
