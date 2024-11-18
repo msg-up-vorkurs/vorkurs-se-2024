@@ -1,20 +1,16 @@
 package course.shapes;
 
-public class Rectangle {
+public class Rectangle extends Shape{
 
-    private String color;
-    private double posX;
-    private double posY;
     private double width;
     private double height;
 
     public Rectangle(String color, double posX, double posY, double width, double height) {
-        this.color = color;
-        this.posX = posX;
-        this.posY = posY;
+        super(color, posX, posY);
         this.width = width;
         this.height = height;
     }
+    @Override
     public double getCircumference() {
         return 2 * width + 2 * height;
     }

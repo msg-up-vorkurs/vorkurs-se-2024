@@ -1,19 +1,21 @@
 package course.shapes;
 
-public class Circle {
+public class Circle extends Shape {
 
-    String color;
-    double posX;
-    double posY;
     double radius;
 
     public Circle(String color, double posX, double posY, double radius) {
-        this.color = color;
-        this.posX = posX;
-        this.posY = posY;
+        super(color, posX, posY);
         this.radius = radius;
     }
 
+    @Override
+    public void printInfo(){
+        super.printInfo();
+        System.out.println("Ich bin ein Kreis mit Farbe " + color);
+    }
+
+    @Override
     public double getCircumference() {
         return 2 * Math.PI * radius;
     }
