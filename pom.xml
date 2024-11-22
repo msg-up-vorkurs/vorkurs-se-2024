@@ -21,7 +21,7 @@
         <module>10_generics</module>
         <module>11_2d-arrays</module>
         <module>12_inheritance</module>
-<!--        <module>13_tik-tak-toe_blue</module>-->
+        <module>13_tik-tak-toe_blue</module>
         <module>13_tik-tak-toe_yellow</module>
     </modules>
 
